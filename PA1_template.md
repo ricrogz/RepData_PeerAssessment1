@@ -14,6 +14,7 @@ WARNING: The code in this document requires several extra packages to work. The 
 -->
 
 
+
 # Reproducible Research: Peer Assessment 1
 
 This project is an assignment for the [Reproducible research](https://www.coursera.org/course/repdata) Coursera course.
@@ -29,8 +30,8 @@ It documents the processing of the data contained in "activity.zip", which was p
 \
 \
 \  
-<!---
-These backslashes, linebreaks and spaces can be used to add some extra vertical space. I will use them before headers to clarify the document's layout.
+
+<!--- These backslashes, linebreaks and spaces can be used to add some extra vertical space. I will use them before headers to clarify the document's layout.
 -->
 
 ## Loading and preprocessing the data

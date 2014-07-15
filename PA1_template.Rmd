@@ -17,6 +17,7 @@ WARNING: The code in this document requires several extra packages to work. The 
 * plyr
 
 -->
+
 ```{r setoptions, echo = FALSE}
 library(knitr)
 opts_chunk$set(echo = TRUE, cache = TRUE)
@@ -37,8 +38,8 @@ It documents the processing of the data contained in "activity.zip", which was p
 \
 \
 \  
-<!---
-These backslashes, linebreaks and spaces can be used to add some extra vertical space. I will use them before headers to clarify the document's layout.
+
+<!--- These backslashes, linebreaks and spaces can be used to add some extra vertical space. I will use them before headers to clarify the document's layout.
 -->
 
 ## Loading and preprocessing the data
