@@ -21,12 +21,11 @@ This project is an assignment for the [Reproducible research](https://www.course
 
 It documents the processing of the data contained in "activity.zip", which was provided in the original fork from repository [https://github.com/rdpeng/RepData_PeerAssessment1](https://github.com/rdpeng/RepData_PeerAssessment1) at the 14th July 2014, and gives the answers to the questions formulated in the assignment page.
 
-**WARNING: The code in this document requires several extra packages to work. The list of packages that have to be installed are:  
-* knitr (of course!)  
-* data.table  
-* ggplot2  
-* plyr  
-**
+**WARNING: The code in this document requires several extra packages to work. The list of packages that have to be installed are:**  
+* **knitr (of course!)**  
+* **data.table**  
+* **ggplot2**  
+* **plyr**  
 
 
 ## Loading and preprocessing the data
