@@ -27,12 +27,7 @@ It documents the processing of the data contained in "activity.zip", which was p
 * ggplot2  
 * plyr  
 **
-\
-\
-\  
 
-<!--- These backslashes, linebreaks and spaces can be used to add some extra vertical space. I will use them before headers to clarify the document's layout.
--->
 
 ## Loading and preprocessing the data
 
@@ -117,9 +112,7 @@ data$interval <- sprintf("%s:%s",substring(data$interval,1,2),
 # Convert into factor
 data$interval <- factor(data$interval)
 ```
-\
-\
-\  
+
 
 ## What is mean total number of steps taken per day?
 
@@ -156,9 +149,7 @@ print(p)
 ![plot of chunk unnamed-chunk-6](./PA1_template_files/figure-html/unnamed-chunk-6.png) 
 
 In the histogram, mean value is drawn with a continous red line, and median is drawn with a dashed black line.
-\
-\
-\  
+
 
 ## What is the average daily activity pattern?
 
@@ -200,9 +191,7 @@ print(p)
 ```
 
 ![plot of chunk unnamed-chunk-9](./PA1_template_files/figure-html/unnamed-chunk-9.png) 
-\
-\
-\  
+
     
 ## Imputing missing values
 
@@ -263,9 +252,7 @@ print(p)
 Both plots are very similar, and mean and median are practically identical, since by imputing the NAs we have only altered the data corresponding to eight days, which is about 13% of the total data.
 
 We can conclude that, in this dataset, imputing the NAs with average number of steps for each interval does not have much impact on the mean and the median of the number of setps per day. It neither has much influence in the shape of the histogram.
-\
-\
-\  
+
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
@@ -370,6 +357,4 @@ filledcount
 ```
 
 It looks like that we only filled in the 12% of the weekend data, and 13% of the weekday data. This is a reasonable amount, and it should not skew the data too much.
-\
-\
-\  
+
